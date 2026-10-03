@@ -1,104 +1,103 @@
 <!DOCTYPE html>
-<html lang="ka">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ჩემი საყვარელი კურსი</title>
+    <title>Online Course Platform</title> 
 </head>
-
 <body>
-    <header>
-        <h1>ჩემი საყვარელი კურსი</h1>
-
-        <nav>
-            <a href="#about">კურსის შესახებ</a>
-            <a href="#topics">თემები</a>
-            <a href="#contact">კონტაქტი</a>
-        </nav>
-    </header>
-
-    <main>
-
-        <section id="about">
-            <h2>კურსის შესახებ</h2>
-
-            <p>
-                ეს არის Front-End პროგრამირების კურსი,
-                სადაც HTML Markup-ს ვსწავლობთ.
-            </p>
-
-            <img src="html.jpg" alt="HTML logo">
-        </section>
-
-        <section id="topics">
-
-            <h2>ნასწავლი თემები</h2>
-
-            <ul>
-                <li>HTML სტრუქტურა</li>
-                <li>Semantic HTML</li>
-                <li>Forms</li>
-                <li>Tables</li>
-            </ul>
-
-        </section>
-
-        <section>
-            <h2>კურსის მონაწილეები</h2>
-
-            <table>
-
-                <thead>
-                    <tr>
-                        <td>სახელი</td>
-                        <th>კურსი</th>
-                        <th>სტატუსი</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td>ანა</td>
-                        <td>HTML</td>
-                        <td>აქტიური</td>
-                    </tr>
-
-                    <tr>
-                        <td>გიორგი</td>
-                        <td>HTML</td>
-                        <td>აქტიური</td>
-                    </tr>
-                </tbody>
-
-            </table>
-        </section>
-
-        <section>
-            <h2>რეგისტრაცია</h2>
-
-            <form>
-<label for="name">სახელი</label>
-                <input id="name" type="text">
-                
-
-                <br>
-
-                <label for="email">ელფოსტა</label>
-                <input id="email" type="email">
-
-                <br>
-
-                <button type="submit">გაგზავნა</button>
-
-            </form>
-        </section>
-
-    </main>
-
-    <footer>
-        <p>© 2026 ჩემი კურსი</p>
-    </footer>
-
+<header> 
+<h1> Online Course Platform </h1>
+<nav>
+<a href="home"> მთავარი </a>
+<a href="#courses">კურსები</a>
+<a href="#register">რეგისტრაცია</a>
+</nav>
+</header>
+<main>
+<section id="home">
+    <h2> About </h2>
+    <p> <strong> ჩვენი პლატფორმა </strong>  მომხმარებლებს სთავაზობს მაღალ ხარისხის <em>ონლაინ კურსებს </em> სადაც თქვენ შეისწავლით <strong> თანამედროვე ტექნოლოგიებს და Front-End, CSS, HTML Markup, Java Script და React პროგრამირებას. </strong> </p>
+</section>
+<section id="courses">
+<h2>Courses</h2>
+<ul>
+<li> HTML Markup</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li> React </li>
+</ul>
+<article> 
+    <h3>Front-End Development Courses</h3>
+    <p>თქვენ შეისწავლით ვებსაიტის სტრუქტურის შექმნას, ვებსაიტის დიზაინს, საიტის ფუნქციონალს, თანამედროვე და აპლიკაციების შექმნას და საბოლოოდ შეძლებს საკუთარი ვებსაიტის შექმნას.</p>
+    <img src="images (4).jpg" alt="Frontend developmen course"> 
+    </article>
+    </section>
+    <section>
+        <h2> Courses Table</h2>
+<table>
+<thead>
+<tr>
+<th colspan="4">AVAILABLE COURSES</th>
+</tr>
+<tr>
+    <th> Course Level</th>
+    <th> Teacher</th>
+    <th> Duration</th>
+</tr>
+</thead>
+<tbody>
+    <tr>
+<td> HTML beginner</td>
+<td> Ana</td>
+<td> 4 weeks</td>
+</tr>
+<tr>
+    <td> CSS Beginner</td>
+    <td> Giorgi</td>
+    <td> 5 weeks</td>
+    </tr>
+    <tr>
+<td>JavaScript Intermediate</td>
+<td>Nino</td>
+<td> 8 weeks </td>
+</tr>
+<td> React Intermediate </td>
+<td> Luka </td>
+<td> 6 weeks </td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="register">
+    <h2>Registration Form</h2>
+    <form>
+        <label for="Fullname">Fullname</label>
+        <input type="text" name="fullname" id="fullname">
+      <label for="email">Email</label> 
+      <input type="email" name="email" id="email"> 
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password">
+      <label for="age">Age</label>
+      <input type="number" name="age" id="age">
+      <label> Choose Course </label>
+      <select name="course">
+      <option value="html">HTML</option>
+      <option value="css">CSS</option>
+      <option value="javascript">JavaScript</option>
+      <option value="react">React</option>
+      </select>
+      <button type="submit"> Register</button>
+      </form>
+</section>
+<section>
+<h2>Favourite Chess Piece </h2>
+<p> &#9812; &#9814; &#9816; </p>
+</section>
+</main>
+<footer>
+<p> Nika </p>
+<a href="#contact">Contact</a>
+</footer>
 </body>
 </html>
